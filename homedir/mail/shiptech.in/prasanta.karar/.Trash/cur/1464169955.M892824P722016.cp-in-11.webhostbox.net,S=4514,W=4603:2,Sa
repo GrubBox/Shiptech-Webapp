@@ -1,0 +1,89 @@
+Return-path: <sandeep.krishnan@gmail.com>
+Envelope-to: prasanta.karar@shiptech.in
+Delivery-date: Wed, 25 May 2016 09:52:16 +0000
+Received: from mail-yw0-f169.google.com ([209.85.161.169]:33161)
+	by cp-in-11.webhostbox.net with esmtps (TLSv1.2:AES128-GCM-SHA256:128)
+	(Exim 4.86_1)
+	(envelope-from <sandeep.krishnan@gmail.com>)
+	id 1b5VU6-003UuQ-4O
+	for prasanta.karar@shiptech.in; Wed, 25 May 2016 09:52:16 +0000
+Received: by mail-yw0-f169.google.com with SMTP id h19so42233064ywc.0
+        for <prasanta.karar@shiptech.in>; Wed, 25 May 2016 02:51:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=USaKIcmRhi84N7BENb4yLPj36TxwmBZPyDszz8FvNsc=;
+        b=Gfg50jdGrABfHXrNagnAcNuuRFvFPWorBKr/Y9MsIowcCyTCAFWD6/F/c0wlir3LXt
+         QMrLbKihG0i8Khx5r4NefY0cZI8Coiw0B/ca1nDTLPbSP+ydu5Uz0d47XtTbZcpBAJ+n
+         7KmLkAXLtQJjpPZwpj+jMR6bjzC4Cup0eYTUYSTnXDwC1WkzdQEbPDZaZvckP/miJYfr
+         WCP623Q5z40KpTb64UvTB5SCbrRB7XOQT0RT2BE45YC5rgCziuoqkm1Slzk5/W9Bd1QD
+         m6CqYxdQJbMlofCs3YD9glrpUGXByNI4oBvgm6a2Wb3WT0vumbRogqdsbWY7+/I1uffm
+         9OaQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=USaKIcmRhi84N7BENb4yLPj36TxwmBZPyDszz8FvNsc=;
+        b=SlnzEd4tPepDdGOexFW9wnyeaJoA5U24Xu6w5TbtIgD3TcSvfOiRNjzWJ3/AGbDutG
+         Ye4F1mAdZ54//avKD/1juT9A9Gym7C0N35mMRERiUZJJZz3d0NqeWlaFRlyyfmFejaOf
+         ZuN0PJTqQC1d7PurkvaPKQX4jm5OOc8LY+FgpfLpWJawOjsRMAUFojxUzsMIq7uC/g6l
+         ddDb/mjH55ens+OaOozxLalwcTB/t/jc4xBSZbtKKkmkVfDhChccbuNsRDdnvcI9WHI1
+         z1Vs8eb720eaVLnE3Xe+sQ4orVmW3NafjHi3QJ+GXA1siakq61n1JiOJoxnFbcW6/6lI
+         DmRw==
+X-Gm-Message-State: ALyK8tLLEOwQ2tHKp/uQiwxfrU6OHgaU9l40ivWGeVVgxUywH9luTXFwbrLZfTLlPFXLDyvPmQWUhtSfcZFAAA==
+X-Received: by 10.13.200.1 with SMTP id k1mr1789289ywd.141.1464169891982; Wed,
+ 25 May 2016 02:51:31 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.129.90.69 with HTTP; Wed, 25 May 2016 02:51:02 -0700 (PDT)
+In-Reply-To: <D576CD81-920C-41E7-954F-59EA0F39DDC8@shiptech.in>
+References: <D576CD81-920C-41E7-954F-59EA0F39DDC8@shiptech.in>
+From: Sandy <sandeep.krishnan@gmail.com>
+Date: Wed, 25 May 2016 15:21:02 +0530
+Message-ID: <CAK4wSsitcUvY2vZLeeBLiKTbVwHZL3TgpXrr4E7a3atwRmTQ8Q@mail.gmail.com>
+Subject: Re: test
+To: shipTech <prasanta.karar@shiptech.in>
+Content-Type: multipart/alternative; boundary=001a114e60fe4d76530533a79eab
+X-Authenticated_sender: 
+X-Spam-Status: No, score=-0.1
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, CMAE Analysis: v=2.1 cv=b+EemIyx c=1 sm=0 tr=0 a=yrkiwgmsf1kA:10 a=75njNv3aFh5G20kCyYwA:9 a=QEXdDO2ut3YA:10 a=UhcxaVWRT78A:10 a=CxnhnGauLfjFmxqmABQA:9 a=AWEL7UosCVMA:10
+ 
+ *  0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+ *      (sandeep.krishnan[at]gmail.com)
+ * -0.0 RCVD_IN_MSPIKE_H3 RBL: Good reputation (+3)
+ *      [209.85.161.169 listed in wl.mailspike.net]
+ *  0.0 HTML_MESSAGE BODY: HTML included in message
+ * -0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from author's
+ *       domain
+ *  0.1 DKIM_SIGNED Message has a DKIM or DK signature, not necessarily
+ *      valid
+ * -0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+ * -0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/, no
+ *      trust
+ *      [209.85.161.169 listed in list.dnswl.org]
+ * -0.0 RCVD_IN_MSPIKE_WL Mailspike good senders
+X-Spam-Flag: NO
+
+--001a114e60fe4d76530533a79eab
+Content-Type: text/plain; charset=UTF-8
+
+On Wed, May 25, 2016 at 2:45 PM, shipTech <prasanta.karar@shiptech.in>
+wrote:
+
+> the first mail
+>
+
+--001a114e60fe4d76530533a79eab
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br></div><div class=3D"gmail_extra"><br><div class=3D"gma=
+il_quote">On Wed, May 25, 2016 at 2:45 PM, shipTech <span dir=3D"ltr">&lt;<=
+a href=3D"mailto:prasanta.karar@shiptech.in" target=3D"_blank">prasanta.kar=
+ar@shiptech.in</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" s=
+tyle=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">the =
+first mail<br>
+</blockquote></div><br></div>
+
+--001a114e60fe4d76530533a79eab--

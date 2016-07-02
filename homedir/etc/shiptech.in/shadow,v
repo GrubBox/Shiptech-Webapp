@@ -1,0 +1,39 @@
+head	1.2;
+access;
+symbols;
+locks
+	shiptx1f:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2016.05.25.08.59.05;	author shiptx1f;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2016.05.25.08.59.05;	author shiptx1f;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@prasanta.karar:$1$.hLBmdJe$pYIKiSnXkpOofdLrFjxp5/:16946::::::
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+@

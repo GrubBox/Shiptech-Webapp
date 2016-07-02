@@ -1,0 +1,75 @@
+Return-path: <sandeep.krishnan@gmail.com>
+Envelope-to: prasanta.karar@shiptech.in
+Delivery-date: Wed, 25 May 2016 09:00:51 +0000
+Received: from mail-yw0-f196.google.com ([209.85.161.196]:36369)
+	by cp-in-11.webhostbox.net with esmtps (TLSv1.2:AES128-GCM-SHA256:128)
+	(Exim 4.86_1)
+	(envelope-from <sandeep.krishnan@gmail.com>)
+	id 1b5UgN-002vME-CC
+	for prasanta.karar@shiptech.in; Wed, 25 May 2016 09:00:51 +0000
+Received: by mail-yw0-f196.google.com with SMTP id l126so5700569ywe.3
+        for <prasanta.karar@shiptech.in>; Wed, 25 May 2016 02:00:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=NhBT0S9O7ROsNUyPsM4KsvmkC9Cz4Bh0/JrolIPgRoQ=;
+        b=cdzcyxWIWLtEC7F8qpG+P1cXK1HYvf6uZM25ypw2SEfYre+49RM2mBSNhyl1XjuBp4
+         EupkzNlcvkzk5Vg0tgP3kE4CE78nzc0Fvnk7vJFJKE7EwXU/oyohRJfcA8AqOV/FUfd8
+         CC+VYf5hSn/zSW0pRuDZgyMAMAQRAF5y04DDoI2PP20nfaz90JJVTzOTnUv2ZPvqWbq4
+         lHqB5C6T++fuMf1Gm1d5QJ5L8qUSwA1nP3z2tHRTZCtnrPBQr1C+Js6jjubYkELBSj3z
+         6nv43PRO84Io4+TKrqJzfSDzqUW2IYYmBjarMDqwtu5rXEN1vSLSOmL+G2KU61JqoK+z
+         5Gbw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=NhBT0S9O7ROsNUyPsM4KsvmkC9Cz4Bh0/JrolIPgRoQ=;
+        b=TpRdXlyje4QGGxQWcNJ1vkNJG6BF2yu3s9RRlfs7CGCJa7YNx8tkF9kB+3JI3w/eA/
+         HcxhJHzjR+s3oJxjsOYhPeR0M5SMfismYUn4NwLPCr7slIgCh6LQ/T2GWoQCIwZVZ0Kf
+         Zwvg6LESyEM31pfKU06QzDbAc6ng+3JASVTZzQAZfQ4WKgQQt6egaFNDzENOnDKp0sDG
+         YgjLw5rTaPBchfhazaRCr554N1meElWy2cwPKnQZuL+fNALaLv1UK7W3+EJH27QE5IWa
+         pZ7ZTCbftVU772QwChEyAx8p3/zxu1iXJTdTgKPDk6vE5EcagNYjEv5HUnx2k01Nobt9
+         vUCg==
+X-Gm-Message-State: ALyK8tIp83L/ulPGNf7mV35JpSrxJJAoo7R24yHvyEnFsm5UwaiiD0HmUqleMtIhg4+PoKEFHITj3+GZcufruA==
+X-Received: by 10.37.11.82 with SMTP id 79mr1527902ybl.153.1464166808059; Wed,
+ 25 May 2016 02:00:08 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.129.90.69 with HTTP; Wed, 25 May 2016 01:59:38 -0700 (PDT)
+From: Sandy <sandeep.krishnan@gmail.com>
+Date: Wed, 25 May 2016 14:29:38 +0530
+Message-ID: <CAK4wSsjzyKLQog-_QWaJuY-nFwDrbPrRK2HvpfC2gjt=19Yr4A@mail.gmail.com>
+Subject: test
+To: prasanta.karar@shiptech.in
+Content-Type: multipart/alternative; boundary=001a11c00eb27c84150533a6e69d
+X-Authenticated_sender: 
+X-Spam-Status: No, score=-0.1
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: DKIM_SIGNED=0.1, DKIM_VALID=-0.1, DKIM_VALID_AU=-0.1, FREEMAIL_FROM=0.001, HTML_MESSAGE=0.001, RCVD_IN_DNSWL_NONE=-0.0001, RCVD_IN_MSPIKE_H3=-0.01, RCVD_IN_MSPIKE_WL=-0.01, CMAE Analysis: v=2.1 cv=b+EemIyx c=1 sm=0 tr=0 a=yrkiwgmsf1kA:10 a=6BrDaJ5WXvREvQ-J4T4A:9 a=QEXdDO2ut3YA:10 a=L9H7d07YOLsA:10 a=9cW_t1CCXrUA:10 a=s5jvgZ67dGcA:10 a=k2GXVZ5VwK86dXqfSkUA:9
+ 
+ *  0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+ *      (sandeep.krishnan[at]gmail.com)
+ *  0.0 HTML_MESSAGE BODY: HTML included in message
+ * -0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from author's
+ *       domain
+ *  0.1 DKIM_SIGNED Message has a DKIM or DK signature, not necessarily
+ *      valid
+ * -0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+ * -0.0 RCVD_IN_MSPIKE_H3 RBL: Good reputation (+3)
+ *      [209.85.161.196 listed in wl.mailspike.net]
+ * -0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/, no
+ *      trust
+ *      [209.85.161.196 listed in list.dnswl.org]
+ * -0.0 RCVD_IN_MSPIKE_WL Mailspike good senders
+X-Spam-Flag: NO
+
+--001a11c00eb27c84150533a6e69d
+Content-Type: text/plain; charset=UTF-8
+
+
+
+--001a11c00eb27c84150533a6e69d
+Content-Type: text/html; charset=UTF-8
+
+<div dir="ltr"><br></div>
+
+--001a11c00eb27c84150533a6e69d--

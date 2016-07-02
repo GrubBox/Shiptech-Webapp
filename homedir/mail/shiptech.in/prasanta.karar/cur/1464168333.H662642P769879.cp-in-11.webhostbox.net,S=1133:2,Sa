@@ -1,0 +1,32 @@
+Return-path: <shiptx1f@cp-in-11.webhostbox.net>
+Envelope-to: prasanta.karar@shiptech.in
+Delivery-date: Wed, 25 May 2016 09:25:33 +0000
+Received: from shiptx1f by cp-in-11.webhostbox.net with local (Exim 4.86_1)
+	(envelope-from <shiptx1f@cp-in-11.webhostbox.net>)
+	id 1b5V4H-003EH9-HO
+	for prasanta.karar@shiptech.in; Wed, 25 May 2016 09:25:33 +0000
+To: shipTech <prasanta.karar@shiptech.in>
+Subject: "Test me now"
+X-PHP-Script: shiptech.in/index.php for 122.178.74.125
+X-PHP-Originating-Script: 1839:class-phpmailer.php
+Date: Wed, 25 May 2016 09:25:33 +0000
+From: shipTech <prasanta.karar@shiptech.in>
+Message-ID: <128fa6e186f41b744285453cbfdf3651@shiptech.in>
+X-Mailer: PHPMailer 5.2.14 (https://github.com/PHPMailer/PHPMailer)
+X-WPCF7-Content-Type: text/plain
+Reply-To: ss@gmail.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Authenticated_sender: shipTech <prasanta.karar@shiptech.in>
+X-Authenticated_user: shiptx1f
+
+From: Sandeep <ss@gmail.com>
+Subject: Test me now
+
+Message Body:
+I may be interested call me
+
+--
+This e-mail was sent from a contact form on  (http://shiptech.in)
+

@@ -1,0 +1,47 @@
+Return-path: <>
+Envelope-to: shiptx1f@cp-in-11.webhostbox.net
+Delivery-date: Fri, 20 May 2016 16:41:24 +0000
+Received: from mailnull by cp-in-11.webhostbox.net with local (Exim 4.86_1)
+	id 1b3nUK-0025m5-DG
+	for shiptx1f@cp-in-11.webhostbox.net; Fri, 20 May 2016 16:41:24 +0000
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@cp-in-11.webhostbox.net>
+To: shiptx1f@cp-in-11.webhostbox.net
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1b3nUK-0025m5-DG@cp-in-11.webhostbox.net>
+Date: Fri, 20 May 2016 16:41:24 +0000
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered. 
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from shiptx1f by cp-in-11.webhostbox.net with local (Exim 4.86_1)
+	(envelope-from <shiptx1f@cp-in-11.webhostbox.net>)
+	id 1b3nUJ-0025lh-Sk
+	for sudeshna.karar@gmail.com; Fri, 20 May 2016 16:41:23 +0000
+To: sudeshna.karar@gmail.com
+Subject: "test"
+X-PHP-Script: shiptech.in/index.php for 182.65.227.99
+X-PHP-Originating-Script: 1839:class-phpmailer.php
+Date: Fri, 20 May 2016 16:41:23 +0000
+From: Sandeep Krishnan <admin@shiptech.in>
+Message-ID: <17dddc87c4befdb21c29299e9229eba7@shiptech.in>
+X-Mailer: PHPMailer 5.2.14 (https://github.com/PHPMailer/PHPMailer)
+X-WPCF7-Content-Type: text/plain
+Reply-To: sandeep.krishnan@gmail.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+From: Sandeep Krishnan <sandeep.krishnan@gmail.com>
+Subject: test
+
+Message Body:
+test
+
+--
+This e-mail was sent from a contact form on  (http://shiptech.in)
+

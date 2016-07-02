@@ -1,0 +1,653 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201605 will be lost/reset.
+# Last config file used to build this data file was /home/shiptx1f/tmp/awstats/awstats.shiptech.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2688                
+POS_VISITOR 12093               
+POS_DAY 16196               
+POS_DOMAIN 3570                
+POS_LOGIN 4045                
+POS_ROBOT 4200                
+POS_WORMS 4683                
+POS_EMAILSENDER 4814                
+POS_EMAILRECEIVER 4957                
+POS_SESSION 17043               
+POS_SIDER 17253               
+POS_FILETYPES 5092                
+POS_DOWNLOADS 5474                
+POS_OS 5637                
+POS_BROWSER 5932                
+POS_SCREENSIZE 6745                
+POS_UNKNOWNREFERER 6819                
+POS_UNKNOWNREFERERBROWSER 7434                
+POS_ORIGIN 7916                
+POS_SEREFERRALS 8060                
+POS_PAGEREFS 8216                
+POS_SEARCHWORDS 8805                
+POS_KEYWORDS 8957                
+POS_MISC 2349                
+POS_ERRORS 9016                
+POS_CLUSTER 3901                
+POS_SIDER_404 9191                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160601000125 14 2594 8862872684769
+FirstTime 20160501043446
+LastTime 20160531180330
+LastUpdate 20160601052703 14 0 13 0 0
+TotalVisits 219                 
+TotalUnique 89                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 105                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1454 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 11 11 29054 5 11 201055
+1 3 5 485781 13 75 299347
+2 17 51 394074 8 34 188705
+3 11 34 974227 4 20 298087
+4 170 435 11925630 96 148 423254
+5 153 302 10305384 36 177 528630
+6 358 617 25475607 39 165 110310
+7 382 929 29943644 50 97 407833
+8 625 1124 43564136 135 196 778236
+9 1249 2313 88998159 191 386 340995
+10 819 1595 71111678 100 236 1967052
+11 383 1048 46579363 36 146 942080
+12 82 439 18839430 22 48 1256735
+13 105 224 16114772 22 56 5970735
+14 321 643 38149620 25 101 541822
+15 453 747 40870332 43 163 784277
+16 787 1720 66838773 70 397 392859
+17 701 1543 53773881 113 272 437629
+18 145 282 8618466 16 89 257900
+19 98 152 21567342 6 34 254732
+20 9 100 2961799 20 58 1261739
+21 2 2 27275 7 12 130727
+22 2 3 422960 3 8 314524
+23 2 2 55348 2 13 465048
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 17
+in 6656 13191 566381854
+us 117 815 21642983
+tr 46 46 119994
+hk 36 76 1486646
+nl 9 64 2230696
+at 6 43 1295353
+de 6 6 132528
+fr 4 32 1518322
+mc 2 37 1195181
+jp 2 2 66420
+sk 2 2 54931
+ru 1 1 27674
+ch 1 1 33972
+ua 0 2 571301
+ro 0 1 422960
+gb 0 1 422960
+th 0 1 422960
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 241 5606600 20160531205023 21
+googlebot\-image 78 5118463 20160529052643 0
+bot[\s_+:,\.\;\/\\-] 63 490638 20160531025448 42
+slurp 7 66554 20160505052507 2
+no_user_agent 2 62363 20160508163634 0
+unknown 2 134 20160505042020 2
+php 1 33972 20160505042024 0
+google[_+\s]web[_+\s]preview 1 71190 20160527045846 0
+scanner 1 28300 20160502103849 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 16
+css 1077 12647469 0 0
+ttf 1 70552 0 0
+woff2 1 66624 0 0
+woff 126 1608516 0 0
+json 2 661614 0 0
+php 5053 398809551 0 0
+html 1677 68590965 0 0
+jpg 2653 46170268 0 0
+xml 1 1045 0 0
+doc 5 942080 0 0
+png 1537 19756270 0 0
+js 1624 12054671 0 0
+jpeg 350 35912954 0 0
+Unknown 27 185508 0 0
+gif 179 538349 0 0
+svg 8 10299 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/wp-content/uploads/2016/05/Ex-C-SCM-01-02-Subcontractors-Inprocess-Evaluation-Jan-2015-March-2015.doc 6 0 1130496
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+linuxandroid 985 138
+winlong 1 1
+winxp 17 9
+macosx6 1 0
+ios_iphone 79 13
+macosx9 3 3
+ios_ipad 1 0
+winnt 2 0
+java 5 5
+linuxubuntu 2 1
+macosx5 1 1
+linux 378 69
+win7 258 34
+macosx 12353 6476
+Unknown 127 97
+win8.1 104 37
+macosx8 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 39
+firefox28.0 3 3
+chrome50.0.2661.89 474 57
+android 96 53
+chrome48.0.2564.116 1 0
+firefox2.0.0.5 1 1
+msie8.0 4 4
+chrome33.0.0.0 1 0
+chrome50.0.2661.94 2546 1215
+chrome26.0.1410.65 1 1
+chrome45.0.2454.93 1 1
+msie7.0 5 5
+chrome37.0.2062.120 5 5
+chrome50.0.2661.102 3201 1677
+firefox23.0 1 1
+chrome27.0.1453 570 32
+safari8.0 20 2
+chrome50.0.2661.86 6765 3602
+chrome49.0.2623.112 3 0
+Unknown 94 94
+chrome37.0.2062.94 1 1
+firefox3.0.8 1 1
+chrome47.0.2526.83 69 8
+firefox40.0 1 1
+chrome48.0.2564.95 1 0
+firefox29.0 1 1
+firefox46.0 120 15
+chrome28.0.1500.71 3 3
+firefox30.0 5 5
+chrome49.0.2623.108 1 0
+chrome49.0.2623.75 41 39
+msie11.0 109 31
+safari9.0 1 0
+mozilla 35 5
+netscape5.0 3 3
+safari5.0.4 9 2
+msie10.0 2 2
+chrome44.0.2403.133 37 4
+safari 88 13
+firefox3.6.13 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+WordPress/4.5.1;_http://shiptech.in/wp 20160502053656
+Mozilla/5.0_Moreover/5.1_(_http://www.moreover.com;_webmaster@moreover.com) 20160502165405
+Softaculous 20160502055725
+help@dataminr.com 20160501170449
+WordPress/4.5.2;_http://shiptech.in 20160531180330
+WhatsApp/2.16.13_A 20160505045040
+Mozilla/5.0_(compatible)_Feedfetcher-Google;(_http://www.google.com/feedfetcher.html) 20160526213011
+Mozilla/4.0_(compatible;) 20160505064704
+MetaURI_API/2.0__metauri.com 20160505042240
+WordPress/4.5.1;_http://shiptech.in 20160507081403
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+WordPress/4.5.1;_http://shiptech.in/wp 20160502053656
+Apache-HttpClient/4.3.5_(java_1.5) 20160502103828
+Softaculous 20160502055725
+help@dataminr.com 20160501170449
+WordPress/4.5.2;_http://shiptech.in 20160531180330
+Google-HTTP-Java-Client/1.17.0-rc_(gzip) 20160505042018
+WhatsApp/2.16.13_A 20160505045040
+MetaURI_API/2.0__metauri.com 20160505042240
+WordPress/4.5.1;_http://shiptech.in 20160507081403
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 330 366
+From1 0 0
+From2 0 11
+From3 14 19
+From4 6544 13925
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 0 11
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+https://t.co/5cR44z0dIi 4 4
+http://103.53.42.63:2082/cpsess2376323909/frontend/x3/softaculous/index.live.php 3 3
+http://burger-imperia.com 2 2
+http://www.wpmayor.com/parallax-one-page-business-theme-review/ 1 1
+http://pizza-imperia.com 1 1
+http://pizza-tycoon.com 1 1
+http://hvd-store.com 1 1
+http://103.53.42.63:2082/cpsess2686104382/frontend/x3/softaculous/index.live.php 1 1
+http://www.webpagetest.org/result/160506_PW_ZZQ/1/details/ 0 5
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 2 27324
+206 8 5649487
+406 7 469
+302 362 346983
+500 350 0
+405 2 84
+301 111 5070
+404 241 1046680
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 49
+/ 19 -
+/robots.txt 7 -
+/wp-admin/index.php 1 http://shiptech.in/wp-admin/options-general.php
+/wp-content/uploads/2016/05/Contacts-icon-sandy.png 1 http://shiptech.in/wp-admin/customize.php
+/wp-content/themes/zerif-lite/images/map25-redish.png 7 http://shiptech.in/wp/
+/2016/05/02/hello-world/ 1 -
+/wp-admin/install.php 1 -
+/wp-content/plugins/pirate-forms/css/front.css 7 http://shiptech.in/wp/
+/wp-content/themes/zerif-lite/css/style-mobile.css 6 http://shiptech.in/wp/
+/services 2 http://shiptech.in/
+/downloader/ 2 http://shiptech.in/downloader/
+/wp-content/themes/zerif-lite/js/jquery.knob.js 7 http://shiptech.in/wp/
+/our%20work 1 http://shiptech.in/wp/
+/wp-admin/admin-ajax.php 1 http://shiptech.in/wp-admin/options-general.php
+/our-work 1 http://shiptech.in/wp/
+/wp/ 47 -
+/m/ 1 -
+/wp-content/themes/zerif-lite/images/envelope4-green.png 7 http://shiptech.in/wp/
+/pf_contact/monday-may-16-2016-by-sandeep-krishnan/ 2 http://shiptech.in/wp-admin/edit.php
+/wp-includes/js/wp-emoji-release.min.js 6 http://shiptech.in/wp/
+/wp-content/themes/zerif-lite/js/zerif.js 7 http://shiptech.in/wp/
+/2016/05/02/ 7 -
+/tmp/sfx.php 1 -
+/wp-content/themes/zerif-lite/images/telephone65-blue.png 7 http://shiptech.in/wp/
+/wp-includes/js/jquery/jquery.js 3 http://shiptech.in/wp/
+/wp-content/themes/zerif-lite/js/smoothscroll.js 7 http://shiptech.in/wp/
+/wp-content/themes/zerif-lite/css/font-awesome.min.css 7 http://shiptech.in/wp/
+/wp-admin/nav-menus.php 1 http://shiptech.in/wp-admin/nav-menus.php
+/mobile/ 1 -
+/wp-includes/js/jquery/jquery-migrate.min.js 3 http://shiptech.in/wp/
+/wp-content/themes/zerif-lite/css/responsive.css 7 http://shiptech.in/wp/
+/wp 4 -
+/wp-cron.php 1 -
+/wp-content/plugins/front-end-upload/destination.php 1 -
+/about 5 http://shiptech.in/wp/
+/administrator/ 1 http://shiptech.in/administrator/
+/2016/05/02/insert-club/ 1 -
+/wp-content/themes/zerif-lite/js/scrollReveal.js 1 http://shiptech.in/wp/
+/magazine/js/mage/cookies.js 1 shiptech.in/magazine
+/wp-content/themes/zerif-lite/css/bootstrap.css 7 http://shiptech.in/wp/
+/About 1 http://shiptech.in/wp/
+/wp-admin/themes.php 1 http://shiptech.in/wp-admin/users.php
+/wp-login.php 7 -
+/wp-content/themes/zerif-lite/images/logo.png 7 http://shiptech.in/wp/
+/wp-content/plugins/pirate-forms/js/scripts-general.js 7 http://shiptech.in/wp/
+/wp-content/themes/zerif-lite/js/bootstrap.min.js 7 http://shiptech.in/wp/
+/wp-content/themes/zerif-lite/style.css 7 http://shiptech.in/wp/
+/wp-includes/js/wp-embed.min.js 3 http://shiptech.in/wp/
+/wp-content/uploads/2016/05/Ship-building123.jpg 1 http://shiptech.in/wp-admin/customize.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 105
+182.65.8.91 3804 7361 341617209 20160504172202
+182.65.173.36 1141 2067 60179336 20160515122755
+182.65.187.144 723 1200 40919505 20160508173441
+122.178.74.125 193 328 14581675 20160527045439
+122.178.74.114 191 332 27962698 20160510154616
+182.65.227.99 157 393 18585072 20160521145300
+182.65.189.104 101 328 16937310 20160519173658
+103.53.42.63 82 82 703098 20160531180330
+182.65.96.19 79 152 3927954 20160516063644
+182.65.22.108 66 165 17733868 20160505154448
+178.233.127.81 35 35 90940 20160508181433
+182.65.211.46 31 174 2227566 20160509164902
+134.159.168.106 25 65 1387782 20160505064852
+182.65.191.186 21 52 1390722 20160520114744
+117.193.38.76 13 82 3605492 20160524171135
+182.65.85.34 12 100 1349633 20160506162207
+66.249.82.125 12 218 5752724 20160521113747
+103.246.38.196 11 11 98864 20160505064851
+122.174.62.189 11 60 7266059 20160510133927
+88.235.38.167 11 11 29054 20160508005330
+66.249.82.122 10 170 4312754 20160521145351
+66.249.82.119 10 182 4497929 20160521145353
+82.74.64.55 9 63 1807736 20160505100404
+106.77.171.125 8 69 906701 20160521084232
+182.65.79.225 8 66 1265705 20160524160838
+82.19.145.160 0 1 422960 
+136.243.154.105 2 2 33972 20160505042240
+72.14.199.57 1 1 27674 20160522102803
+54.166.254.80 1 1 14490 20160505034020
+144.76.23.175 1 1 32448 20160501170450
+219.65.67.254 4 37 1181757 20160505064022
+219.65.100.91 0 1 58101 
+99.94.176.224 0 1 422960 
+64.74.215.130 2 9 351832 20160518110902
+163.47.12.126 0 1 44355 
+91.135.65.69 1 1 33972 20160505011252
+117.216.43.74 1 27 592908 20160518163445
+70.39.246.37 3 3 32165 20160502165405
+66.102.7.183 5 7 174744 20160521025247
+66.249.84.145 4 4 86795 20160511114114
+196.15.16.104 2 35 916004 20160513121838
+85.248.227.164 1 1 27674 20160521230040
+27.59.228.221 1 1 33972 20160505045040
+72.66.115.14 5 52 1754410 20160526135415
+176.226.186.63 1 1 27674 20160522234311
+66.249.81.249 0 10 546236 
+72.14.199.56 2 2 55348 20160522102344
+71.212.17.63 0 1 422960 
+66.249.80.91 5 5 94964 20160519022307
+46.33.255.137 0 1 422960 
+82.170.173.223 0 1 422960 
+202.83.57.20 0 1 422960 
+54.196.6.106 1 1 33972 20160505034017
+66.249.81.243 1 20 372305 20160503054316
+72.66.115.10 2 2 0 20160526135334
+85.248.227.163 1 1 27257 20160528033831
+150.70.173.8 1 1 32448 20160501170628
+195.154.8.111 1 1 27257 20160529182104
+106.208.148.243 1 1 33986 20160505042025
+54.198.49.15 1 1 15054 20160505034021
+76.184.143.205 2 19 454737 20160515165544
+50.18.94.121 2 2 0 20160501170450
+52.21.32.218 3 3 97344 20160501170533
+80.111.60.200 5 42 1267158 20160506092044
+223.236.204.50 0 1 3576 
+182.65.42.135 1 2 28849 20160510014944
+77.120.45.238 0 1 148341 
+52.71.64.37 1 1 27674 20160525090221
+106.208.90.209 2 35 534212 20160510123234
+61.12.32.170 0 1 3576 
+66.102.7.190 6 6 39539 20160525053841
+199.30.228.137 1 1 28275 20160506100246
+64.233.173.234 1 9 190160 20160502172658
+45.126.255.212 0 1 422960 
+115.110.127.198 1 1 27275 20160525121440
+66.249.80.83 4 4 34730 20160516024348
+66.102.7.176 5 5 94330 20160523103440
+161.69.163.20 1 1 28195 20160514061601
+66.249.84.143 6 6 39754 20160513023926
+149.202.98.161 1 1 27257 20160530111715
+72.14.199.58 2 2 54949 20160526213011
+54.151.42.39 2 2 0 20160505042018
+23.20.182.148 1 1 13535 20160505034021
+54.196.245.28 1 1 32448 20160501170448
+49.206.172.123 2 35 917760 20160515200336
+88.167.130.215 0 1 422960 
+66.249.80.99 1 1 33972 20160504171905
+64.233.173.242 2 16 484652 20160523161840
+213.227.165.50 1 1 28195 20160513083311
+66.249.81.246 2 17 293122 20160505054125
+5.254.65.130 0 1 422960 
+150.70.173.40 1 1 33972 20160505042138
+66.249.84.144 1 1 2322 20160504181831
+23.22.196.139 1 1 32448 20160501170449
+64.233.173.238 1 20 547522 20160523161844
+66.249.84.184 1 1 2301 20160520140339
+144.76.22.55 1 1 33972 20160505042021
+54.198.230.246 1 1 14490 20160505034021
+23.96.208.137 2 2 66420 20160505042029
+54.91.137.217 1 1 28300 20160502103828
+136.243.154.100 2 2 32136 20160501170839
+58.11.36.228 0 1 422960 
+52.21.176.42 1 1 32448 20160501170503
+80.94.102.30 2 37 1195181 20160505120718
+195.154.179.93 2 29 1040848 20160505054106
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20160501 1065 2068 70138356 17
+20160502 1473 2809 154201861 13
+20160503 1154 2159 110634984 7
+20160504 176 434 9347025 7
+20160505 133 433 24931235 27
+20160506 31 258 6270809 13
+20160507 5 5 30577 4
+20160508 774 1251 41100604 9
+20160509 35 178 2260192 5
+20160510 210 434 35819852 8
+20160511 6 7 64568 6
+20160512 3 3 30496 3
+20160513 14 83 1227216 8
+20160514 38 162 6057718 6
+20160515 1127 2168 62433236 16
+20160516 85 195 5507899 5
+20160517 1 5 1326981 1
+20160518 3 37 1367700 2
+20160519 102 330 17362571 4
+20160520 92 272 6890012 9
+20160521 114 474 18873503 13
+20160522 9 10 563631 8
+20160523 4 34 1195552 4
+20160524 22 149 4871197 3
+20160525 84 137 6287800 6
+20160526 5 21 798264 4
+20160527 114 196 8351125 2
+20160528 3 3 27257 3
+20160529 2 2 27257 2
+20160530 2 2 27257 2
+20160531 2 2 0 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 15
+5mn-15mn 7
+30s-2mn 10
+15mn-30mn 10
+2mn-5mn 5
+0s-30s 164
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 108
+/wp-admin/admin-ajax.php 3055 18344157 5 14
+/ 960 48262478 94 59
+/wp/wp-admin/admin-ajax.php 313 892033 0 1
+/wp-admin/post.php 281 43593299 0 0
+/wp-admin/customize.php 239 259092184 0 1
+/wp-admin/async-upload.php 116 212028 0 0
+/wp-admin/load-scripts.php 114 9088125 0 1
+/wp-admin/edit.php 112 6591287 1 0
+/contact/ 107 2392050 2 8
+/wp-content/themes/Parallax-One/fonts/stamp-icons.woff 92 1417600 10 23
+/wp-admin/nav-menus.php 90 7957005 0 0
+/wp-login.php 85 220188 22 24
+/home/ 81 2153148 1 0
+/about-us/ 71 1615505 3 3
+/wp-admin/ 70 3242909 1 1
+/wp/ 62 2393457 10 10
+/wp-cron.php 61 0 53 52
+/wp/wp-admin/load-scripts.php 51 4536749 0 0
+/surveyors/ 46 1215108 1 1
+/home/ship-repairs/ 45 1192167 0 2
+/home/ship-building-2/ 42 1203949 1 0
+/certifications-empanellments/ 42 1019394 0 2
+/wp/wp-admin/plugin-install.php 40 6025480 0 0
+/wp-admin/plugins.php 39 1974566 1 0
+/home/manpower-support/ 38 918084 2 2
+/empanelled/ 31 723151 1 0
+/wp-admin/media-new.php 1 28419 0 0
+/wp-admin/post-new.php 15 2025541 0 0
+/wp-admin/load-styles.php 35 2746391 0 0
+/wp-admin/index.php 7 336119 0 0
+/wp-admin/users.php 6 200401 0 0
+/2016/05/02/hello-world/ 1 19547 0 0
+/wp/wp-admin/options-permalink.php 2 54626 0 0
+/feed/ 3 6145 1 2
+/wp/wp-admin/async-upload.php 3 4893 0 0
+/wp/wp-admin/nav-menus.php 25 2020245 0 1
+/services 4 45372 0 0
+/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 5 86020 0 0
+/wp-admin/tools.php 2 65662 0 0
+/wp/softtest_2nhehpjz/soft 1 20 1 0
+/softtest_1aogixwl/soft 1 20 0 0
+/comments/feed/ 2 2840 0 0
+/xmlrpc.php 2 1600 1 0
+/our-work/ 27 617603 0 1
+/wp/wp-content/themes/zerif-lite/fonts/fontawesome-webfont.woff 4 65452 0 0
+/wp-json/ 1 972 0 0
+/wp/wp-admin/profile.php 4 145626 0 0
+/wp/wp-includes/js/tinymce/wp-tinymce.php 1 168447 0 0
+/wp-content/themes/Parallax-One/fonts/stamp-icons.ttf 1 70552 0 1
+/wp/wp-admin/users.php 3 98118 0 0
+/wp/wp-admin/post-new.php 13 1545069 0 0
+/home-2/ 24 491005 0 0
+/wp-admin/widgets.php 3 692844 0 0
+/ship-building/ 1 26155 0 0
+/wp-admin/about.php 1 31218 0 0
+/wp-admin/upgrade.php 2 2 1 2
+/wp/softtest_f7krsqbw/soft 1 20 0 0
+/wp/wp-admin/admin.php 11 1272211 0 0
+/wp-includes/js/tinymce/wp-tinymce.php 4 673788 0 0
+/wp-content/themes/llorix-one-lite/fonts/fontawesome-webfont.woff2 1 66624 0 0
+/wp/wp-content/plugins/siteorigin-panels/css/icons/siteorigin-panels.woff 6 2780 0 0
+/wp/wp-cron.php 5 0 1 2
+/story 3 46619 0 0
+/wp/wp-admin/options-discussion.php 3 99946 0 0
+/wp/wp-admin/update.php 15 485006 0 0
+/wp-admin/upload.php 9 708104 0 0
+/wp/wp-admin/options-writing.php 1 26233 0 0
+/wp/wp-admin/plugins.php 20 1264774 0 0
+/wp/check_charset.php 3 96 0 0
+/wp/wp-admin/ 18 990361 0 0
+/wp/wp-admin/customize.php 17 8825541 0 0
+/check_charset.php 1 32 0 0
+/wp/wp-admin/post.php 34 4612905 0 0
+/wp/wp-admin/options-general.php 6 503114 0 0
+/wp/wp-admin/options-reading.php 2 53542 0 0
+/wp-admin/options-reading.php 2 57399 0 0
+/wp-admin/plugin-editor.php 10 439952 0 0
+/wp/softtest_7j7a48em/soft 1 20 0 0
+/wp-admin/admin.php 25 1569052 0 1
+/wp-includes/wlwmanifest.xml 1 1045 0 0
+/wp-admin/theme-install.php 6 227393 0 0
+/wp/wp-admin/index.php 3 135685 0 0
+/wp/wp-admin/options-media.php 1 24371 0 0
+/wp-admin/media-upload.php 2 126498 0 0
+/wp/wp-admin/load-styles.php 21 2706586 0 0
+/wp-admin/plugin-install.php 11 1196190 0 0
+/contact-me-now/ 1 22881 0 0
+/wp/wp-login.php 4 10361 2 0
+/wp/wp-admin/edit.php 29 1473429 0 0
+/wp-content/plugins/siteorigin-panels/css/icons/siteorigin-panels.woff 18 19460 0 0
+/wp-json/oembed/1.0/embed 14 30986 0 1
+/wp-admin/profile.php 6 239895 0 2
+/wp-admin/options-media.php 1 25429 0 0
+/wp/wp-admin/update-core.php 2 52441 0 0
+/2016/05/ 1 17778 0 0
+/wp-admin/update.php 12 264811 0 0
+/wp/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 1 17204 0 0
+/ship-repairs/ 2 46649 0 0
+/wp/wp-content/plugins/easy-google-fonts/assets/fonts/webfonts.json 2 661614 2 2
+/home/ship-repairs 1 61479 0 0
+/2016/05/02/insert-club/ 1 17629 0 0
+/wp/wp-admin/themes.php 9 517383 0 0
+/wp-admin/edit-comments.php 9 410010 0 0
+/wp-admin/themes.php 30 1296526 0 0
+/wp/wp-admin/theme-install.php 2 73176 0 0
+/wp-admin/options-general.php 10 567946 0 0
+/wp-admin/update-core.php 6 177404 1 0
+/wp-json 1 972 1 0
+END_SIDER

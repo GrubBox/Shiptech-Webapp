@@ -1,0 +1,37 @@
+# cPanel -- If you edit this file directly you must run /usr/local/cpanel/scripts/updateuserdomains afterwards to rebuild the system caches.
+# If you edit MAX_EMAIL_PER_HOUR or MAX_EMAIL_PER_HOUR-[domain] you must run /usr/local/cpanel/scripts/updateuserdomains'
+
+BACKUP=0
+BWLIMIT=unlimited
+CONTACTEMAIL=sandeepvk@yahoo.com
+CONTACTEMAIL2=prasanta@outlook.com
+DEMO=0
+DNS=shiptech.in
+DNS1=shiptech.in.cp-in-11.webhostbox.net
+FEATURELIST=default
+HASCGI=1
+HASDKIM=1
+HASSPF=0
+IP=103.53.42.63
+LEGACY_BACKUP=0
+LOCALE=en
+MAXADDON=0
+MAXFTP=unlimited
+MAXLST=unlimited
+MAXPARK=unlimited
+MAXPOP=unlimited
+MAXSQL=unlimited
+MAXSUB=unlimited
+MTIME=1463935620
+OWNER=root
+PLAN=default
+PUSHBULLET_ACCESS_TOKEN=
+RS=paper_lantern
+STARTDATE=1461948619
+USER=shiptx1f
+notify_contact_address_change=1
+notify_contact_address_change_notification_disabled=1
+notify_disk_limit=1
+notify_email_quota_limit=1
+notify_password_change=1
+notify_password_change_notification_disabled=1

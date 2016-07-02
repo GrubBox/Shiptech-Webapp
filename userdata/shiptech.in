@@ -1,0 +1,29 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /usr/local/apache/domlogs/shiptech.in
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /usr/local/apache/domlogs/shiptech.in-bytes_log
+documentroot: /home/shiptx1f/public_html
+group: shiptx1f
+hascgi: 1
+homedir: /home/shiptx1f
+ip: 103.53.42.63
+owner: root
+phpopenbasedirprotect: 1
+port: 80
+scriptalias: 
+  - 
+    path: /home/shiptx1f/public_html/cgi-bin
+    url: /cgi-bin/
+  - 
+    path: /home/shiptx1f/public_html/cgi-bin/
+    url: /cgi-bin/
+serveradmin: webmaster@shiptech.in
+serveralias: shiptech.in.cp-in-11.webhostbox.net www.shiptech.in www.shiptech.in.cp-in-11.webhostbox.net
+servername: shiptech.in
+usecanonicalname: 'Off'
+user: shiptx1f
+userdirprotect: ''

@@ -1,0 +1,16 @@
+--- 
+__version: '2.1'
+shiptech.in: 
+  account_count: 1
+  accounts: 
+    prasanta.karar: 
+      disk_mtime: '1467454559'
+      diskquota: 0
+      diskused: 10649
+  disk_mtime: '1467454559'
+  passwd_mtime: '1467454559'
+  quota_mtime: '1467454559'
+shiptech.in.cp-in-11.webhostbox.net: 
+  account_count: 0
+  accounts: {}
+

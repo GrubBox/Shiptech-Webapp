@@ -1,0 +1,28 @@
+; cPanel first:11.52.4.0 (update_time):1463940081 11.52.4.0: Cpanel::ZoneFile::VERSION:1.3 hostname:cp-in-11.webhostbox.net latest:11.52.6.1
+; Zone file for shiptech.in.cp-in-11.webhostbox.net
+$TTL 14400
+@      86400  IN      SOA     ns1.cp-in-11.webhostbox.net. cpanel.webhostbox.net. (
+                2016052200        ; serial, todays date+todays
+                86400           ; refresh, seconds
+                7200            ; retry, seconds
+                3600000         ; expire, seconds
+                86400 )         ; minimum, seconds
+
+shiptech.in.cp-in-11.webhostbox.net. 86400 IN NS ns1.cp-in-11.webhostbox.net.
+shiptech.in.cp-in-11.webhostbox.net. 86400 IN NS ns2.cp-in-11.webhostbox.net.
+
+
+shiptech.in.cp-in-11.webhostbox.net. IN A 103.53.42.63
+webmail IN A 103.53.42.63
+
+localhost.shiptech.in.cp-in-11.webhostbox.net. IN A 127.0.0.1
+
+shiptech.in.cp-in-11.webhostbox.net. IN MX 0 shiptech.in.cp-in-11.webhostbox.net.
+
+mail IN CNAME shiptech.in.cp-in-11.webhostbox.net.
+www IN CNAME shiptech.in.cp-in-11.webhostbox.net.
+ftp IN CNAME shiptech.in.cp-in-11.webhostbox.net.
+default._domainkey IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxzwmuwmtZSNfdi4eF9j2VMd6x9JZoVpU5YKRr13/w6LsAcTv9q3qcNgQm3AcW64NXrOOTn6mfDQx2qKazXIx6sZp0TXu0LOcBffJ0CuhJSlQEpxxm6uvvl3dgZ6hLeWhfLl/ahXFSJhn0gkiq2BJ/UZJ4enBIESdL2psr2wcscU981Cmwgiovr7a4YyqQdktl" tI44hEVmcL4YwlvLcYjiroE54I3y+9G4hxl/H/57ORGhjZ8TQq8V8zJHaIGkXo+DBWtcZwsqwR24kLim+j2kMG+agGzbfK5EHLnypxnutIRIF5q4IpHJPxSpDAMzVqJv+nywoXaRnTxHhaJXPZLDQIDAQAB\;
+webdisk IN A 103.53.42.63
+cpcalendars IN A 103.53.42.63
+cpcontacts IN A 103.53.42.63
